@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
 }
 :root{
     --bgcolornav: rgba(31, 31, 31, 0.89);
@@ -12,6 +15,17 @@
     --cardwith: 250px;
     --cardheight: 300px;
     --cardborderradius: 5px;
+
+    --castlewidth: 300px;
+    --castleheight:200px;
+
+    --castlecardwidth: 15%;
+    --castlecardheight:250px;
+    --castlecardmargin: 2px;
+
+    --bgfooter: rgba(31, 31, 31, 0.89);
+    --bgfooterlink: rgba(236, 236, 236, 0.89);
+    --bgfooterlinkhoover: rgba(214, 83, 8, 0.89);
 }
 
 /* --nav */
@@ -105,13 +119,15 @@
     background-color: rgb(230, 231, 228);
     margin-top: 400px;
     width: 100%;
-    height: 650px;
+    height: auto;
     padding: 100px;
-    overflow: hidden;
+    overflow: hidden ;
+
 }
 .wheretogo h2{
     font-size: 60px;
     padding-top: 20px;
+    
 }
 
 .card{
@@ -181,9 +197,9 @@
     width: 80%;
     height: 450px;
     padding: 100px 0 0 150px;
+    box-shadow: 1px 1px 20px #0000004b;
 }
 .bgphoto-content{
-    background-color: aqua;
     float: left;
     width: 600px;
     height: 300px;
@@ -198,14 +214,224 @@
     padding: 150px
 }
 .bgphoto-indication{
-    background-color: blueviolet;
+    height: 50px;
+    font-weight: bold;
 }
-.bgphoto-title{
-    background-color: brown;
-    margin-top: 50px;
+.brphoto-card:hover{
+    background-color: #000000;
+    opacity: 0.9;
+}
+.bgphoto-title span{
+    font-size: 40px;
 }
 .bgphoto-text{
-    background-color: bisque;
-    margin-top: 50px;
-    height: 100px;
+    margin-top: 10px;
+    height: 120px;
+    display: flex;
 }
+
+/*Castles*/
+
+.castles-ireland{
+    margin-top: 200px;
+    background-color: rgba(230, 231, 228, 0.349);
+    height: 900px;
+}
+.castles-title{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 60px;
+}
+.castles-cards{
+    margin-top: 150px;
+    height: 400px;
+}
+.castle1{
+    background-color: rgb(13, 14, 14);
+    background-image: url(/assets/castle\ -\ dublincastle.jpg);
+    background-size: cover;
+    color: #000000;
+    margin: 0 10px 0 50px;
+    float: left;
+    width: 40%;
+    height: 510px;
+    transition: 0.5s;
+}
+.castle-title{
+    background-color: rgba(175, 175, 175, 0.61);
+    text-align: justify;
+    margin-top: 410px;
+}
+.castle1-title{
+    background-color: rgba(175, 175, 175, 0.61);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 200px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.castle2{
+    background-image:url(/assets/castle-\ kilkenycastle.jpg);
+    background-size: cover;
+    float: left;
+    width: var(--castlecardwidth);
+    height: var(--castlecardheight);
+    margin: var(--castlecardmargin);
+    transition: 0.5s;
+}
+.castle3{
+    background-image:url(/assets/castle-\ kilkenycastle.jpg);
+    background-size: cover;
+    float: left;
+    width: var(--castlecardwidth);
+    height: var(--castlecardheight);
+    margin: var(--castlecardmargin);
+    transition: 0.5s;
+}
+.castle4{
+    background-image:url(/assets/castle-\ kilkenycastle.jpg);
+    background-size: cover;
+    float: left;
+    width: var(--castlecardwidth);
+    height: var(--castlecardheight);
+    margin: var(--castlecardmargin);
+    transition: 0.5s;
+}
+.castle5{
+    background-image:url(/assets/castle-\ kilkenycastle.jpg);
+    background-size: cover;
+    float: left;
+    width: var(--castlecardwidth);
+    height: var(--castlecardheight);
+    margin: var(--castlecardmargin);
+    transition: 0.5s;
+}
+.castle6{
+    background-image:url(/assets/castle-\ kilkenycastle.jpg);
+    background-size: cover;
+    float: left;
+    width: var(--castlecardwidth);
+    height: var(--castlecardheight);
+    margin: var(--castlecardmargin);
+    transition: 0.5s;
+}
+.castle7{
+    background-image:url(/assets/castle-\ kilkenycastle.jpg);
+    background-size: cover;
+    float: left;
+    width: var(--castlecardwidth);
+    height: var(--castlecardheight);
+    margin: var(--castlecardmargin);
+    transition: 0.5s;
+}
+.castle{
+    border-radius: 2px;
+}
+
+.castle:hover{
+    visibility: visible;
+    transform: scale(1.1);
+}
+
+.footer{
+    background-color: var(--bgfooter);
+    height: 200px;
+    color: aliceblue;
+    justify-content: center;
+}
+.footer a{
+    color: var(--bgfooterlink);
+}
+
+.footer1{
+    background-color: var(--bgfooter);
+    width: 33%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+.logoir{
+    height: 150px;
+    width: 150px;
+    background-image: url(/assets/ireland.png);
+    background-size: cover;
+    
+}
+
+.footer2{
+    background-color: var(--bgfooter);
+    width: 33%;
+    float: left;
+    height: 100%;
+    transition: 0.3s;
+}
+.footer2 h1{
+    color: var(--bgfooterlinkhoover);
+    margin-bottom: 50px;
+}
+.footerlink:hover{
+    color: brown;
+}
+
+.footer3{
+    background-color: var(--bgfooter);
+    width: 33%;
+    float: left;
+    height: 100%;
+}
+.footer3 h1{
+    color: var(--bgfooterlinkhoover);
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .face-coment{
+        width: 100%;
+    }
+    .bgphoto-text{
+        display: flex;
+    }
+    .wheretogo{
+        justify-content: center;
+        text-align: center;
+    }
+    .card{
+        justify-content: center;
+        text-align: center;
+    }
+    .castles-cards{
+        width: 100%;
+        flex-direction: column;
+    } 
+    
+}
+@media screen and (max-width: 850px) {
+    .footer{
+        text-align: center;
+    }
+    .footer1{
+        width: 100%;
+    }
+    .footer2{
+        width: 100%;
+    }
+    .footer3{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
