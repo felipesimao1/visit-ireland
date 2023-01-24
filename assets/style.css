@@ -12,16 +12,6 @@
     --bgfaceellements: rgba(31, 31, 31, 0.493);
     --face-coments: rgb(197, 197, 197);
 
-    --cardwith: 250px;
-    --cardheight: 300px;
-    --cardborderradius: 5px;
-
-    --castlewidth: 300px;
-    --castleheight:200px;
-
-    --castlecardwidth: 15%;
-    --castlecardheight:250px;
-    --castlecardmargin: 2px;
 
     --bgfooter: rgba(31, 31, 31, 0.89);
     --bgfooterlink: rgba(236, 236, 236, 0.89);
@@ -29,7 +19,6 @@
 }
 
 /* --nav */
-
 .navbar-main{
     background-color: var(--bgcolornav);
     opacity: 0.7;
@@ -38,13 +27,6 @@
     position: fixed;
     color: white;
     z-index: 1;
-}
-
-
-.logo-ireland{
-    float: left;
-    padding: 0 60px;
-
 }
 .navbar-links{
     font-size: 17px;
@@ -55,288 +37,291 @@
     color: white;  
     padding: 0 25px;
 }
-
 /* --end nav */
 
-/* --face*/
+/* Cliffs Image*/
 
-.face-main{
-    background-image: url(/assets/--face\ -\ Geokaun-Feaghmaan-Kerry-Ireland.jpg);
+.cliffs-image{
+    background-image: url(/assets/--face-cliffs1.jpg);
     background-size: cover;
     height: 700px;
-}
-
-.planyourtrip{
-    color: var(--face-coments);
-    font-size: 23px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px #000000;
-    margin: -500px 0 0 20px ;
-    height: 100px;
-    width: 250px;
     display: flex;
-    justify-content: center;
     align-items: center;
     text-align: center;
+    justify-content: center;
+
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px 20px #161515;
+}
+.cliffs-location{
+    background-color: aqua;
+    position: absolute;
 }
 
-.face-coment{
-    background-color: var(--bgfaceellements);
-    color: var(--face-coments);
-    width: 800px;
+
+
+/* -- end Cliffs Image*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*container info*/
+
+
+.container-info{
+    width: 100%;
+    height: 600px;
+    transition: 0.5s;
+}
+.container-info1{
+    width: 40%;
+    height: 600px;
+    float: left;
+    background-color: rgba(7, 224, 0, 0.747);
+    transition: 0.5s;
+}
+.container-info2{
+    width: 60%;
+    height: 300px;
+    float: left;
+    background-color: rgba(5, 82, 197, 0.795);
+    transition: 0.5s;
+}
+.container-info3{
+    width: 60%;
     height: 300px;
     float: right;
-    margin: 100px 0 0 0 ;
-    border-radius: 10px;
+    background-color: rgba(118, 126, 124, 0.801);
+    transition: 0.5s;
 }
-.face-coment1{
-    width: 20%;
-    height: 100%;
-    float: left;
-    writing-mode: vertical-rl;
+.info:hover{
+    transform: scale(0.99);
 }
-.face-coment1 h1{
-    color: var(--face-coments);
-    text-align: center;
-    opacity: 0.7;
-}
-.face-coment2{
-    display: flex;
-    margin: 100px 0 0 250px;
-    font-size: 20px;
-    transition-property: transform;
-    
-}
-.face-coment2:hover h1{
-    transform: scale(1.1);
-    transition: 0.8s;
-}
-/* -- end face*/
 
-/* --popular destinations*/
 
-.wheretogo{
-    background-color: rgb(230, 231, 228);
-    margin-top: 400px;
+
+@media screen and (max-width: 600px) {
+    .container-info{
+        display: block;
+    }
+    .container-info1{
+        width: 100%;
+        display: block;
+    }
+    .container-info2{
+        width: 100%;
+        display: block;
+    }
+    .container-info3{
+        width: 100%;
+        display: block;
+    }
+}
+
+/*container info end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Photo*/
+
+.container-photo{
     width: 100%;
-    height: auto;
-    padding: 100px;
-    overflow: hidden ;
-
-}
-.wheretogo h2{
-    font-size: 60px;
-    padding-top: 20px;
-    
-}
-
-.card{
-    float: left;
-    margin: 20px 20px  0 0;
-}
-.card:hover{
-    transform: scale(1.1);
-    box-shadow: 2px 5px 15px #000000;;
-}
-
-.destination1{
-    background-image: url(/assets/Ring-of-Kerry-Lookout-Car-Park-Ireland.jpg);
-    background-size: cover;
-    width: var(--cardwith);
-    height: var(--cardheight);
-    border-radius: var(--cardborderradius);
-    transition: 0.5s;
-}
-.destination2{
-    background-image: url(/assets/card\ -\ Sandymount-Beach-County-Dublin-Ireland.jpg);
-    background-size: cover;
-    width: var(--cardwith);
-    height: var(--cardheight);
-    border-radius: var(--cardborderradius);
-    transition: 0.5s;
-}
-.destination3{
-    background-image: url(/assets/Ring-of-Kerry-Lookout-Car-Park-Ireland.jpg);
-    background-size: cover;
-    width: var(--cardwith);
-    height: var(--cardheight);
-    border-radius: var(--cardborderradius);
-    transition: 0.5s;
-}
-.destination4{
-    background-image: url(/assets/Ring-of-Kerry-Lookout-Car-Park-Ireland.jpg);
-    background-size: cover;
-    width: var(--cardwith);
-    height: var(--cardheight);
-    border-radius: var(--cardborderradius);
-    transition: 0.5s;
-}
-.more{
-    width: 50px;
-    height:350px;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    transition: 0.5s;
-}
-.more:hover span{
-    text-decoration: underline;
-}
-
-/* -- end popular destinations*/
-
-.bgphoto-contentmain{
     height: 500px;
-    margin-top: 150px;
-}
-
-.bgphoto{
-    background-color: rgba(250, 232, 154, 0.308);
-    width: 80%;
-    height: 450px;
-    padding: 100px 0 0 150px;
-    box-shadow: 1px 1px 20px #0000004b;
-}
-.bgphoto-content{
-    float: left;
-    width: 600px;
-    height: 300px;
-    margin: 0 0 0 400px;
-}
-.brphoto-card{
-    position: relative;
-    background-image: url(/assets/--face\ -\ Geokaun-Feaghmaan-Kerry-Ireland.jpg);
-    background-size: cover;
-    width: 350px;
-    height: 450px;
-    padding: 150px
-}
-.bgphoto-indication{
-    height: 50px;
-    font-weight: bold;
-}
-.brphoto-card:hover{
-    background-color: #000000;
-    opacity: 0.9;
-}
-.bgphoto-title span{
-    font-size: 40px;
-}
-.bgphoto-text{
-    margin-top: 10px;
-    height: 120px;
-    display: flex;
-}
-
-/*Castles*/
-
-.castles-ireland{
-    margin-top: 200px;
-    background-color: rgba(230, 231, 228, 0.349);
-    height: 900px;
-}
-.castles-title{
-    text-align: center;
-    margin-top: 200px;
-    font-size: 60px;
-}
-.castles-cards{
-    margin-top: 150px;
-    height: 400px;
-}
-.castle1{
-    background-color: rgb(13, 14, 14);
-    background-image: url(/assets/castle\ -\ dublincastle.jpg);
-    background-size: cover;
-    color: #000000;
-    margin: 0 10px 0 50px;
-    float: left;
-    width: 40%;
-    height: 510px;
-    transition: 0.5s;
-}
-.castle-title{
-    background-color: rgba(175, 175, 175, 0.61);
-    text-align: justify;
-    margin-top: 410px;
-}
-.castle1-title{
-    background-color: rgba(175, 175, 175, 0.61);
-    display: flex;
-    text-align: center;
-    align-items: center;
+    display: flex;/*alinha elementos*/
     justify-content: center;
-    height: 50px;
-    margin-top: 200px;
-    text-decoration: none;
-    color: #000000;
+    flex-flow: wrap;
+    background-color: rgba(128, 128, 128, 0.308);
+}
+.photo{
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.photo-info{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(46, 43, 226);
+}
+@media screen and (max-width: 600px) {
+    .photo{
+        display: block;
+        width: 100%;
+    }
+    .photo-info{
+        display: block;
+        width: 100%;
+    }
 }
 
-.castle2{
-    background-image:url(/assets/castle-\ kilkenycastle.jpg);
-    background-size: cover;
-    float: left;
-    width: var(--castlecardwidth);
-    height: var(--castlecardheight);
-    margin: var(--castlecardmargin);
-    transition: 0.5s;
-}
-.castle3{
-    background-image:url(/assets/castle-\ kilkenycastle.jpg);
-    background-size: cover;
-    float: left;
-    width: var(--castlecardwidth);
-    height: var(--castlecardheight);
-    margin: var(--castlecardmargin);
-    transition: 0.5s;
-}
-.castle4{
-    background-image:url(/assets/castle-\ kilkenycastle.jpg);
-    background-size: cover;
-    float: left;
-    width: var(--castlecardwidth);
-    height: var(--castlecardheight);
-    margin: var(--castlecardmargin);
-    transition: 0.5s;
-}
-.castle5{
-    background-image:url(/assets/castle-\ kilkenycastle.jpg);
-    background-size: cover;
-    float: left;
-    width: var(--castlecardwidth);
-    height: var(--castlecardheight);
-    margin: var(--castlecardmargin);
-    transition: 0.5s;
-}
-.castle6{
-    background-image:url(/assets/castle-\ kilkenycastle.jpg);
-    background-size: cover;
-    float: left;
-    width: var(--castlecardwidth);
-    height: var(--castlecardheight);
-    margin: var(--castlecardmargin);
-    transition: 0.5s;
-}
-.castle7{
-    background-image:url(/assets/castle-\ kilkenycastle.jpg);
-    background-size: cover;
-    float: left;
-    width: var(--castlecardwidth);
-    height: var(--castlecardheight);
-    margin: var(--castlecardmargin);
-    transition: 0.5s;
-}
-.castle{
-    border-radius: 2px;
-}
 
-.castle:hover{
-    visibility: visible;
-    transform: scale(1.1);
-}
 
+
+
+/* Photo end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
 .footer{
     background-color: var(--bgfooter);
     height: 200px;
@@ -392,6 +377,8 @@
     margin-bottom: 50px;
 }
 
+/*End Footer*/
+
 @media screen and (max-width: 1200px) {
     .face-coment{
         width: 100%;
@@ -399,10 +386,7 @@
     .bgphoto-text{
         display: flex;
     }
-    .wheretogo{
-        justify-content: center;
-        text-align: center;
-    }
+  
     .card{
         justify-content: center;
         text-align: center;
