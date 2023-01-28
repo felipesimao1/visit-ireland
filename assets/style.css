@@ -1,16 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
 
 }
 :root{
     --bgcolornav: rgba(31, 31, 31, 0.89);
     --bgfaceellements: rgba(31, 31, 31, 0.493);
     --face-coments: rgb(197, 197, 197);
+
+    --contcolor: rgba(15, 5, 5, 0.493);
+
+    --bgphotos: rgba(255, 255, 255, 0);
+    --bgphotostitle: rgba(150, 150, 150, 0.151);
+
+    --brborder: 2px solid rgb(248, 171, 3);
+    --bgcastlecontent: rgba(165, 153, 153, 0.925);
 
 
     --bgfooter: rgba(31, 31, 31, 0.89);
@@ -40,7 +47,6 @@
 /* --end nav */
 
 /* Cliffs Image*/
-
 .cliffs-image{
     background-image: url(/assets/--face-cliffs1.jpg);
     background-size: cover;
@@ -61,268 +67,107 @@
 .cliffs-location{
     background-color: aqua;
     position: absolute;
+    margin-left: 950px;
+    margin-top: -200px;
 }
+/*end Cliffs Image*/
 
+/*Ireland*/
+.short-coment{
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 50px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+/*End Ireland*/
 
-
-/* -- end Cliffs Image*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*container info*/
-
-
+/*Photos*/
 .container-info{
     width: 100%;
     height: 600px;
     transition: 0.5s;
-}
-.container-info1{
-    width: 40%;
-    height: 600px;
-    float: left;
-    background-color: rgba(7, 224, 0, 0.747);
-    transition: 0.5s;
-}
-.container-info2{
-    width: 60%;
-    height: 300px;
-    float: left;
-    background-color: rgba(5, 82, 197, 0.795);
-    transition: 0.5s;
-}
-.container-info3{
-    width: 60%;
-    height: 300px;
-    float: right;
-    background-color: rgba(118, 126, 124, 0.801);
-    transition: 0.5s;
-}
-.info:hover{
-    transform: scale(0.99);
-}
-
-
-
-@media screen and (max-width: 600px) {
-    .container-info{
-        display: block;
-    }
-    .container-info1{
-        width: 100%;
-        display: block;
-    }
-    .container-info2{
-        width: 100%;
-        display: block;
-    }
-    .container-info3{
-        width: 100%;
-        display: block;
-    }
-}
-
-/*container info end*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Photo*/
-
-.container-photo{
-    width: 100%;
-    height: 500px;
-    display: flex;/*alinha elementos*/
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-flow: wrap;
-    background-color: rgba(128, 128, 128, 0.308);
+    align-items: center;
+    margin: 50px 0 50px 0;
+    background-color: var(--bgphotos);
+    
 }
-.photo{
-    width: 50%;
-    height: 100%;
-    background-color: blueviolet;
+.cont-photo{
+    width: 100%;
+    height: 80%;
 }
-.photo-info{
-    width: 50%;
-    height: 100%;
-    background-color: rgb(46, 43, 226);
+.cont-coment{
+    height: 20%;
+    background-color: var(--bgphotostitle);
+    transition: 0.3s;
 }
-@media screen and (max-width: 600px) {
-    .photo{
-        display: block;
-        width: 100%;
-    }
-    .photo-info{
-        display: block;
-        width: 100%;
-    }
+.cont-coment:hover{
+    background-color: #16151556;
+}
+.cont-info{
+    width: 20%;
+    height: 90%;
+}
+.contphoto1-photo{
+    background-image: url(/assets/card\ -\ The-Dar-hedges.jpg);
+    background-size: cover;
+    transition: 0.3s; 
+}
+.contphoto2-photo{
+    background-image: url(/assets/castle-\ kilkenycastle.jpg);
+    background-size: cover;
+    transition: 0.3s;
+}
+.contphoto3-photo{
+    background-image: url(/assets/card\ -\ sheeps.jpg);
+    background-size: cover;
+    transition: 0.3s;
+}
+.contphoto4-photo{
+    background-image: url(/assets/dublina.jpg);
+    background-size: cover;
+    transition: 0.3s;
+}
+.contphoto1-photo:hover{
+    transform: scale(0.99);
+    opacity: 0.9;
+}
+.contphoto2-photo:hover{
+    transform: scale(0.99);
+    opacity: 0.9;
+}
+.contphoto3-photo:hover{
+    transform: scale(0.99);
+    opacity: 0.9;
+}
+.contphoto4-photo:hover{
+    transform: scale(0.99);
+    opacity: 0.9;
+}
+/*end /*Photos*/
+
+
+/*Castles*/
+
+.castle-container{
+    
 }
 
 
 
 
 
-/* Photo end*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*End Castles*/
 
 /*Footer*/
 .footer{
+    margin-top: 150pxpx;
     background-color: var(--bgfooter);
     height: 200px;
     color: aliceblue;
@@ -376,30 +221,35 @@
     color: var(--bgfooterlinkhoover);
     margin-bottom: 50px;
 }
-
 /*End Footer*/
 
-@media screen and (max-width: 1200px) {
-    .face-coment{
-        width: 100%;
-    }
-    .bgphoto-text{
-        display: flex;
-    }
-  
-    .card{
-        justify-content: center;
-        text-align: center;
-    }
-    .castles-cards{
-        width: 100%;
-        flex-direction: column;
-    } 
+
     
-}
 @media screen and (max-width: 850px) {
+
+
+    /*Photos*/
+    .container-info{
+        background-color: rgba(240, 248, 255, 0);
+    }
+    .contphoto1, .contphoto2, .contphoto3, .contphoto4{
+        width: 100%;
+        height: 400px;
+    }
+    .container-photo{
+        margin-top: 1200px;
+    }
+    .container-castle{
+        margin-top: 1000px;
+    }
+    /*End photos*/
+
+
+
+    /*Footer*/
     .footer{
         text-align: center;
+        margin-top: 1000px;
     }
     .footer1{
         width: 100%;
@@ -410,7 +260,7 @@
     .footer3{
         width: 100%;
     }
-    
+    /*End Footer*/
 }
 
 
