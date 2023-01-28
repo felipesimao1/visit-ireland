@@ -8,16 +8,25 @@
 }
 :root{
     --bgcolornav: rgba(31, 31, 31, 0.89);
-    --bgfaceellements: rgba(31, 31, 31, 0.493);
+    --bgfaceellements: rgba(255, 255, 255, 0.493);
     --face-coments: rgb(197, 197, 197);
 
     --contcolor: rgba(15, 5, 5, 0.493);
 
     --bgphotos: rgba(255, 255, 255, 0);
     --bgphotostitle: rgba(150, 150, 150, 0.151);
+    --bgphotoscoment: rgba(150, 150, 150, 0.151);
 
-    --brborder: 2px solid rgb(248, 171, 3);
-    --bgcastlecontent: rgba(165, 153, 153, 0.925);
+    --bgcastlesmain: rgba(119, 119, 119, 0.13);
+    --bgcastle-photo: rgba(196, 135, 23, 0.274);
+    --bgcastle-content: rgba(212, 182, 14, 0.151);
+
+    --content:rgba(255, 255, 255, 0.925);
+
+    --uppercontent: rgba(140, 223, 115, 0.199);
+    --hr: rgba(163, 32, 22, 0.199);
+    --colorbotton: rgba(209, 165, 19, 0.897);
+    --downcontant: rgba(140, 223, 115, 0.199);
 
 
     --bgfooter: rgba(31, 31, 31, 0.89);
@@ -55,7 +64,42 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-
+}
+.parks-image{
+    background-image: url(/assets/Killarney-National-Park-Ireland.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.coast-image{
+    background-image: url(/assets/--face\ -\ Fort-Dunree-Leophin-Dunree-Buncrana-Donegal.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.pubs-image{
+    background-image: url(/assets/Killarney-National-Park-Ireland.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.museums-image{
+    background-image: url(/assets/Killarney-National-Park-Ireland.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .welcome{
     display: flex;
@@ -75,13 +119,15 @@
 /*Ireland*/
 .short-coment{
     width: 100%;
-    height: 200px;
-    background-color: aquamarine;
-    margin: 50px 0 10px 0;
-    display: flex;
-    justify-content: center;
+    margin-top: 100px;
+    height: 150px;
     text-align: center;
-    align-items: center;
+}
+.short-coment h1{
+    font-size: 90px;
+}
+.short-coment p{
+    font-size: 20px;
 }
 /*End Ireland*/
 
@@ -103,52 +149,53 @@
     height: 80%;
 }
 .cont-coment{
-    height: 20%;
+    height: fit-content;
+    padding: 10px;
     background-color: var(--bgphotostitle);
     transition: 0.3s;
 }
 .cont-coment:hover{
-    background-color: #16151556;
+    background-color: var(--bgcastle-content);
 }
 .cont-info{
     width: 20%;
     height: 90%;
 }
 .contphoto1-photo{
-    background-image: url(/assets/card\ -\ The-Dar-hedges.jpg);
+    background-image: url(/assets/card1\ -\ tollymorepark\ -\ park.jpg);
     background-size: cover;
     transition: 0.3s; 
 }
 .contphoto2-photo{
-    background-image: url(/assets/castle-\ kilkenycastle.jpg);
+    background-image: url(/assets/card2\ -\ Sandymount-Beachd.jpg);
     background-size: cover;
     transition: 0.3s;
 }
 .contphoto3-photo{
-    background-image: url(/assets/card\ -\ sheeps.jpg);
+    background-image: url(/assets/card3\ -jared-burris.jpg);
     background-size: cover;
     transition: 0.3s;
 }
 .contphoto4-photo{
-    background-image: url(/assets/dublina.jpg);
+    background-image: url(/assets/card4\ -\ museums.jpg);
     background-size: cover;
     transition: 0.3s;
 }
 .contphoto1-photo:hover{
     transform: scale(0.99);
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .contphoto2-photo:hover{
     transform: scale(0.99);
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .contphoto3-photo:hover{
     transform: scale(0.99);
-    opacity: 0.9;
+    opacity: 0.8;
 }
 .contphoto4-photo:hover{
     transform: scale(0.99);
-    opacity: 0.9;
+    opacity: 0.8;
 }
 /*end /*Photos*/
 
@@ -156,14 +203,77 @@
 /*Castles*/
 
 .castle-container{
-    
+    width: 100%;
+    height: 600px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    flex-wrap: wrap; /*faz o conteudo se ajeitar*/
+    background-color:var(--bgcastlesmain);
+}
+.castle-photo{
+    width: 40%;
+    height: 90%;
+    float: left;
+    background-color: var(--bgcastle-photo);
+    background-image: url(/assets/castle\ -\ dublincastle.jpg);
+    background-size: cover;
+    transition: 0.3s;
+}
+.castle-content{
+    width: 40%;
+    height: 90%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgcastle-content);
+}
+.uppercontent{
+    height: 150px;
+    padding: 50px;
+    background-color: var(--content);
+}
+hr{
+    border: 1px solid var(--hr);
+}
+.button {
+    background-color: var(--colorbotton);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.button:hover{
+    color: white;
+    background-color:rgb(255, 166, 0);
+}
+.downcontant{
+    height: 280px;
+    padding: 40px;
+    background-color: var(--content);
+}
+.castle-photo:hover{
+    opacity: 0.8;
 }
 
-
-
-
-
 /*End Castles*/
+
+/* parks page*/
+
+.parks-title{
+    width: 100%;
+    height: 250px;
+
+}
+
+/*end parks page*/
 
 /*Footer*/
 .footer{
@@ -176,7 +286,6 @@
 .footer a{
     color: var(--bgfooterlink);
 }
-
 .footer1{
     background-color: var(--bgfooter);
     width: 33%;
@@ -195,7 +304,6 @@
     background-size: cover;
     
 }
-
 .footer2{
     background-color: var(--bgfooter);
     width: 33%;
@@ -210,7 +318,6 @@
 .footerlink:hover{
     color: brown;
 }
-
 .footer3{
     background-color: var(--bgfooter);
     width: 33%;
@@ -224,6 +331,9 @@
 /*End Footer*/
 
 
+
+
+
     
 @media screen and (max-width: 850px) {
 
@@ -234,7 +344,8 @@
     }
     .contphoto1, .contphoto2, .contphoto3, .contphoto4{
         width: 100%;
-        height: 400px;
+        height: 650px;
+        margin: 10px;
     }
     .container-photo{
         margin-top: 1200px;
@@ -244,12 +355,27 @@
     }
     /*End photos*/
 
+    /*castles*/
+    .castle-container{
+        margin-top: 2100px;
+        height: fit-content;
+    }
+    .castle-photo{
+        width: 100%;
+        height: 300px;
+    }
+    .castle-content{
+        width: 100%;
+    }
+    .downcontant{
+        height: fit-content;
+    }
 
+    /*end castles*/
 
     /*Footer*/
     .footer{
         text-align: center;
-        margin-top: 1000px;
     }
     .footer1{
         width: 100%;
