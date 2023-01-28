@@ -55,8 +55,8 @@
 }
 /* --end nav */
 
-/* Cliffs Image*/
-.cliffs-image{
+/* title image pages*/
+.index-image{
     background-image: url(/assets/--face-cliffs1.jpg);
     background-size: cover;
     height: 700px;
@@ -75,7 +75,7 @@
     justify-content: center;
 }
 .coast-image{
-    background-image: url(/assets/--face\ -\ Fort-Dunree-Leophin-Dunree-Buncrana-Donegal.jpg);
+    background-image: url(/assets/coasts-title\ -\ Fort-Dunree-Leophin-Dunree-Buncrana-Donegal.jpg);
     background-size: cover;
     height: 700px;
     display: flex;
@@ -84,7 +84,7 @@
     justify-content: center;
 }
 .pubs-image{
-    background-image: url(/assets/Killarney-National-Park-Ireland.jpg);
+    background-image: url(/assets/pubs-title.jpg);
     background-size: cover;
     height: 700px;
     display: flex;
@@ -93,7 +93,16 @@
     justify-content: center;
 }
 .museums-image{
-    background-image: url(/assets/Killarney-National-Park-Ireland.jpg);
+    background-image: url(/assets/museums-title.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.castles-image{
+    background-image: url(/assets/castletitle\ -\ Dunguaire\ Castle.jpg);
     background-size: cover;
     height: 700px;
     display: flex;
@@ -114,7 +123,7 @@
     margin-left: 950px;
     margin-top: -200px;
 }
-/*end Cliffs Image*/
+/*end title Image pages*/
 
 /*Ireland*/
 .short-coment{
