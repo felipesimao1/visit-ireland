@@ -36,16 +36,20 @@
 
 /* --nav */
 .navbar-main{
+    display: flex;
     background-color: var(--bgcolornav);
     opacity: 0.7;
     width: 100%;
     line-height: 60px;
     color: rgb(0, 0, 0);
+    background-color: gray;
     z-index: 1;
 }
 .navbar-links{
+    width: 100%;
     font-size: 20px;
     float: right;
+    background-color: gray;
     padding: 0 25px;
 }
 .navbar-links a{ 
@@ -530,7 +534,7 @@ hr{
 }
 .castles:hover h2{
     background-color: rgb(255, 166, 0);
-    color: #161515;
+    color: #070404;
 }
 .castles-1{
     background-image: url(../assets/castle1\ -\ blarmeycastle.jpeg);
@@ -542,13 +546,10 @@ hr{
     background-size: cover;
 }
 .castles-3{
-    background-image: url(/assets/castle3\ -\ malahidecastle.jpg);
+    background-image: url(../assets/castle3\ -\ malahidecastle.jpg);
     background-size: cover;
 }
-.castles-4{
-    background-image: url(../assets/castle4\ -\ swordcastle.jpg);
-    background-size: cover;
-}
+
 
 /*end castles page*/
 
