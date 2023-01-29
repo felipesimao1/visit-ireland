@@ -142,7 +142,7 @@
     height: 150px;
     text-align: center;
 }
-.short-coment h1{
+.short-coment h2{
     font-size: 90px;
 }
 .short-coment p{
@@ -158,6 +158,7 @@
     justify-content: center;
     align-items: center;
     font-size: 5rem;
+    color: #161515;
 }
 /* end castles page*/
 
@@ -175,6 +176,11 @@
     background-color: var(--bgphotos);
     
 }
+.cont-info:hover a{
+    font-size: 20px;
+    background-color: rgb(214, 186, 28);
+}
+
 .cont-photo{
     width: 100%;
     height: 80%;
@@ -191,6 +197,10 @@
 .cont-info{
     width: 20%;
     height: 90%;
+}
+.cont-info a{
+    font-size: 20px;
+    transition: 0.3s;
 }
 .contphoto1-photo{
     background-image: url(/assets/park2\ -\ Dublin_Stephens_Green.jpg);
@@ -269,22 +279,12 @@
 hr{
     border: 1px solid var(--hr);
 }
-.button {
-    background-color: var(--colorbotton);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 2px;
+.downcontant a{
+    font-size: 25px;
     transition: 0.3s;
-    cursor: pointer;
 }
-.button:hover{
-    color: white;
-    background-color:rgb(255, 166, 0);
+.downcontant:hover a{
+    background-color: orange;
 }
 .downcontant{
     height: 280px;
@@ -307,10 +307,9 @@ hr{
     justify-content: center;
     font-size: 70px;
     margin-bottom: 50px;
-    background-image: url(/assets/park4\ -\ peoples\ park.jpg);
     background-position: -150px;
     background-size: cover;
-    color: aliceblue;
+    color: rgb(6, 7, 7);
 }
 .castles-title{
     width: 100%;
@@ -320,10 +319,9 @@ hr{
     justify-content: center;
     font-size: 70px;
     margin-bottom: 50px;
-    background-image: url(/assets/castle-\ kilkenycastle.jpg);
+    color: #161515;
     background-position: -150px;
     background-size: cover;
-    color: aliceblue;
 }
 .coast-title{
     width: 100%;
@@ -333,9 +331,8 @@ hr{
     justify-content: center;
     font-size: 70px;
     margin-bottom: 50px;
-    background-image: url(/assets/--face-cliffs.jpg);
     background-size: cover;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 .pub-title{
     width: 100%;
@@ -345,9 +342,8 @@ hr{
     justify-content: center;
     font-size: 70px;
     margin-bottom: 50px;
-    background-image: url(/assets/pubs-title.jpg);
     background-size: cover;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 .museums-title{
     width: 100%;
@@ -357,9 +353,8 @@ hr{
     justify-content: center;
     font-size: 70px;
     margin-bottom: 50px;
-    background-image: url(/assets/card4\ -\ museums.jpg);
     background-size: cover;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -415,6 +410,8 @@ hr{
     background-size: cover;
     background-position: -50px;
 }
+
+
 .coast-comentary2{
     width: 30%;
     float: right;
@@ -517,14 +514,14 @@ hr{
     margin: 50px 10px ;
     text-align: center;
 }
-.castles h1{
+.castles h2{
     background-color: #161515cb;
     height: 17%;
     padding: 5%;
     color: aliceblue;
     transition: 0.3s;
 }
-.castles:hover h1{
+.castles:hover h2{
     background-color: rgb(255, 166, 0);
     color: #161515;
 }
