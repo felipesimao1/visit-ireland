@@ -10,6 +10,8 @@ For that reason, I would like to make it easier for you to find places where stu
 
 ![nav](https://user-images.githubusercontent.com/31260554/215305372-e16959e2-e70f-4009-9bb5-79930eb64066.jpg)
 
+![nav1](https://user-images.githubusercontent.com/31260554/215330339-650889ae-118f-490f-91a9-fd953a11eb2e.jpg)
+
 By looking at the navigation bar you noticed that there are 3 possibilities:
 home;
 discovery;
@@ -26,12 +28,19 @@ Castles are in a separete box, but it follows the same method than the others. B
 
 # Test
 
+
 Every each link of the site was tested and chequed using html and css validators.
 
 # Content
 
-Some pats of the content was taken from the official sities displayed.
+Some pats of the content was taken from the official sities as displayed below.
 
-# Media
+![content](https://user-images.githubusercontent.com/31260554/215330573-b638be3d-da05-47eb-84d1-e7828aeae195.jpg)
 
-The photos used on the home and sign up page are from This Open Source site.
+# Bugs
+Im trying to solve this problem, when nav bar pass throught the title space. Wrking on it!!!
+![nav2](https://user-images.githubusercontent.com/31260554/215330365-f6a4c79b-5cc1-46d2-a997-bbb7162eac99.jpg)
+
+# Conclusion
+
+I had a little trouble making the site look good. I'll be working on the next few days to perfect the beauty of the system by adding more movement, improving the colors, fixing the bugs and, who knows, using a more modern layout.
