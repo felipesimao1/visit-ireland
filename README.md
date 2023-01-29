@@ -28,10 +28,10 @@ Castles are in a separete box, but it follows the same method than the others. B
 
 Every each link of the site was tested and chequed using html and css validators.
 
-#Content
+# Content
 
 Some pats of the content was taken from the official sities displayed.
 
-#Media
+# Media
 
 The photos used on the home and sign up page are from This Open Source site.
