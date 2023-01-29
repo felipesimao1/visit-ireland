@@ -4,15 +4,26 @@ In order to improve their English as a second language, many students choose Ire
 
 For that reason, I would like to make it easier for you to find places where students, tourists and residents can enjoy themselves.
 
-![welcome1](https://user-images.githubusercontent.com/31260554/215303229-2808243c-6861-4e4e-b487-fec227cd2d5d.jpg)
+![welcome1](https://user-images.githubusercontent.com/31260554/215338903-25d7abeb-8e47-40dc-8989-689a27b634e3.jpg)
+
 
 # Features
 
-![nav](https://user-images.githubusercontent.com/31260554/215305372-e16959e2-e70f-4009-9bb5-79930eb64066.jpg)
+We have a navbad that adopted itself when it is in a cellphone wiew.
 
-![nav1](https://user-images.githubusercontent.com/31260554/215330339-650889ae-118f-490f-91a9-fd953a11eb2e.jpg)
+![nav](https://user-images.githubusercontent.com/31260554/215338919-ccb84737-9393-4a91-9ae3-9fc32a21ff43.jpg)
 
-![nav2](https://user-images.githubusercontent.com/31260554/215334496-cef80897-e6a9-4b40-8392-b2d52d07dbe7.jpg)
+![nav1](https://user-images.githubusercontent.com/31260554/215338928-3510aca2-eaf0-44a1-8fd0-50474e736525.jpg)
+
+![nav2](https://user-images.githubusercontent.com/31260554/215338929-d6812c8c-d332-4543-917c-7ad0a0948305.jpg)
+
+A form was put to recieve informations from the public.
+
+![form](https://user-images.githubusercontent.com/31260554/215338982-fca68ea5-b2d2-4ef9-a911-54b632a79087.jpg)
+
+We have a video to show Cliffs of Moher to the public more realisticly.
+
+![viddeo](https://user-images.githubusercontent.com/31260554/215339144-8cbcaec8-48d7-4968-85a9-65c4f5a31430.jpg)
 
 By looking at the navigation bar you noticed that there are 3 possibilities:
 home;
