@@ -12,6 +12,8 @@ For that reason, I would like to make it easier for you to find places where stu
 
 ![nav1](https://user-images.githubusercontent.com/31260554/215330339-650889ae-118f-490f-91a9-fd953a11eb2e.jpg)
 
+![nav2](https://user-images.githubusercontent.com/31260554/215334496-cef80897-e6a9-4b40-8392-b2d52d07dbe7.jpg)
+
 By looking at the navigation bar you noticed that there are 3 possibilities:
 home;
 discovery;
@@ -21,6 +23,9 @@ These 3 features were placed to facilitate navigation through the website.
 ![discovery](https://user-images.githubusercontent.com/31260554/215305355-4ecf601a-1d01-44da-829e-8af5ae51ad0c.jpg)
 
 By clicking on each of the cards, you will be directed to a specific page with the chosen subject: parks, coasts, pubs or museums.
+
+![photos](https://user-images.githubusercontent.com/31260554/215334688-ac348136-fd6b-4ca2-91ae-a98628ff9881.jpg)
+
 
 ![castles](https://user-images.githubusercontent.com/31260554/215305448-1942eb3a-c811-449d-af59-9c6115523f65.jpg)
 
@@ -36,10 +41,6 @@ Every each link of the site was tested and chequed using html and css validators
 Some pats of the content was taken from the official sities as displayed below.
 
 ![content](https://user-images.githubusercontent.com/31260554/215330573-b638be3d-da05-47eb-84d1-e7828aeae195.jpg)
-
-# Bugs
-Im trying to solve this problem, when nav bar pass throught the title space. Wrking on it!!!
-![nav2](https://user-images.githubusercontent.com/31260554/215330365-f6a4c79b-5cc1-46d2-a997-bbb7162eac99.jpg)
 
 # Conclusion
 
