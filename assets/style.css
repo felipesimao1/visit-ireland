@@ -40,8 +40,7 @@
     opacity: 0.7;
     width: 100%;
     line-height: 60px;
-    position: fixed;
-    color: white;
+    color: rgb(0, 0, 0);
     z-index: 1;
 }
 .navbar-links{
@@ -50,7 +49,7 @@
     padding: 0 25px;
 }
 .navbar-links a{ 
-    color: white;  
+    color: rgb(0, 0, 0);  
     padding: 0 25px;
 }
 /* --end nav */
@@ -304,7 +303,7 @@ hr{
 .parks-title{
     width: 100%;
     height: 150px;
-    padding: 150px;
+
     display: flex;
     justify-content: center;
     font-size: 70px;
@@ -316,7 +315,7 @@ hr{
 .castles-title{
     width: 100%;
     height: 150px;
-    padding: 150px;
+
     display: flex;
     justify-content: center;
     font-size: 70px;
@@ -328,7 +327,7 @@ hr{
 .coast-title{
     width: 100%;
     height: 150px;
-    padding: 150px;
+ 
     display: flex;
     justify-content: center;
     font-size: 70px;
@@ -339,7 +338,6 @@ hr{
 .pub-title{
     width: 100%;
     height: 150px;
-    padding: 150px;
     display: flex;
     justify-content: center;
     font-size: 70px;
@@ -349,8 +347,8 @@ hr{
 }
 .museums-title{
     width: 100%;
-    height: 150px;
-    padding: 150px;
+    height: 50px;
+
     display: flex;
     justify-content: center;
     font-size: 70px;
@@ -374,8 +372,8 @@ hr{
 }
 .comentary1{
     width: 50%;
-    height: 300px;
-    padding: 70px 15px;
+    height: 200px;
+    padding: 60px 15px;
 }
 .comentary1 a{
     font-size: 25px;
@@ -624,6 +622,7 @@ hr{
         display: flex;
         justify-content: center;
         text-align: center;
+        align-items: center;
     }
     .navbar-links a{
         display: flex;
@@ -632,6 +631,7 @@ hr{
         justify-content: center;
         align-items: center;
         width: 100%;
+        color: aliceblue;
     }
 
     /*Photos*/
