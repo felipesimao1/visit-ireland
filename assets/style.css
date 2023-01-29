@@ -4,7 +4,7 @@
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
-
+    scroll-behavior: smooth;
 }
 :root{
     --bgcolornav: rgba(31, 31, 31, 0.89);
@@ -14,8 +14,8 @@
     --contcolor: rgba(15, 5, 5, 0.493);
 
     --bgphotos: rgba(255, 255, 255, 0);
-    --bgphotostitle: rgba(150, 150, 150, 0.151);
-    --bgphotoscoment: rgba(150, 150, 150, 0.151);
+    --bgphotostitle: rgba(124, 124, 124, 0.151);
+    --bgphotoscoment: rgba(102, 224, 143, 0.384);
 
     --bgcastlesmain: rgba(119, 119, 119, 0.13);
     --bgcastle-photo: rgba(196, 135, 23, 0.274);
@@ -45,7 +45,7 @@
     z-index: 1;
 }
 .navbar-links{
-    font-size: 17px;
+    font-size: 20px;
     float: right;
     padding: 0 25px;
 }
@@ -57,10 +57,9 @@
 
 /* title image pages*/
 .index-image{
-    background-image: url(/assets/--face-cliffs1.jpg);
+    background-image: url(/assets/--face-cliffs.jpg);
     background-size: cover;
-    height: 700px;
-    display: flex;
+    height: 100vh;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -111,12 +110,23 @@
     justify-content: center;
 }
 .welcome{
+    text-align: center;
+    height: 800px;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
-    font-size: 100px;
+    align-items: center;
+    text-align: center;
     color: white;
-    text-shadow: 2px 2px 20px #161515;
+    text-shadow: 2px 2px 30px #161515;
 }
+
+.welcome1, .welcome3{
+    font-size: 2rem;
+    font-style: italic;
+    text-shadow: 15px 15px 40px #0e0505;
+}
+
 .cliffs-location{
     background-color: aqua;
     position: absolute;
@@ -139,6 +149,18 @@
     font-size: 20px;
 }
 /*End Ireland*/
+
+/* castles page*/
+.castles-title{
+    height: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+/* end castles page*/
+
 
 /*Photos*/
 .container-info{
@@ -171,8 +193,9 @@
     height: 90%;
 }
 .contphoto1-photo{
-    background-image: url(/assets/card1\ -\ tollymorepark\ -\ park.jpg);
+    background-image: url(/assets/park2\ -\ Dublin_Stephens_Green.jpg);
     background-size: cover;
+    background-position: -50px;
     transition: 0.3s; 
 }
 .contphoto2-photo{
@@ -278,15 +301,260 @@ hr{
 
 .parks-title{
     width: 100%;
-    height: 250px;
-
+    height: 150px;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin-bottom: 50px;
+    background-image: url(/assets/park4\ -\ peoples\ park.jpg);
+    background-position: -150px;
+    background-size: cover;
+    color: aliceblue;
 }
+.castles-title{
+    width: 100%;
+    height: 150px;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin-bottom: 50px;
+    background-image: url(/assets/castle-\ kilkenycastle.jpg);
+    background-position: -150px;
+    background-size: cover;
+    color: aliceblue;
+}
+.coast-title{
+    width: 100%;
+    height: 150px;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin-bottom: 50px;
+    background-image: url(/assets/--face-cliffs.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+.pub-title{
+    width: 100%;
+    height: 150px;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin-bottom: 50px;
+    background-image: url(/assets/pubs-title.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+.museums-title{
+    width: 100%;
+    height: 150px;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    margin-bottom: 50px;
+    background-image: url(/assets/card4\ -\ museums.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+
 
 /*end parks page*/
 
+/*Castles page*/
+
+.castles-comentary, .parks-comentary{
+    width: 100%;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.comentary1{
+    width: 50%;
+    height: 300px;
+    padding: 70px 15px;
+}
+.comentary2{
+    width: 30%;
+    float: right;
+    height: 300px;
+    background-color: rgb(48, 40, 168);
+    background-image: url(/assets/castle\ -\ trimcastle.jpg);
+    background-size: cover;
+}
+.park-comentary2{
+    width: 30%;
+    float: right;
+    height: 300px;
+    background-image: url(/assets/park2-Killarney-National-Park-Ireland.jpg);
+    background-size: cover;
+}
+.park-1{
+    background-image: url(/assets/park1\ -\ phoenix\ park.jpg);
+    background-size: cover;
+    background-position: -50px;
+}
+.park-2{
+    background-image: url(/assets/park2\ -\ Dublin_Stephens_Green.jpg);
+    background-size: cover;
+    background-position: -50px;
+}
+.park-3{
+    background-image: url(/assets/park3\ -\ st\ annis\ park.jpeg.crdownload);
+    background-size: cover;
+    background-position: -50px;
+}
+.park-4{
+    background-image: url(/assets/park4\ -\ peoples\ park.jpg);
+    background-size: cover;
+    background-position: -50px;
+}
+.coast-comentary2{
+    width: 30%;
+    float: right;
+    height: 300px;
+    background-image: url(/assets/--face-cliffs1.jpg);
+    background-size: cover;
+}
+.coast-1{
+    background-image: url(/assets/card2\ -\ Sandymount-Beachd.jpg);
+    background-size: cover;
+}
+.coast-2{
+    background-image: url(/assets/Ring-of-Kerry-Lookout-Car-Park-Ireland.jpg);
+    background-size: cover;
+}
+.coast-3{
+    background-image: url(/assets/card\ -\ Dingle-Peninsula-County-Kerry-Ireland.jpg);
+    background-size: cover;
+}
+.coast-4{
+    background-image: url(/assets/cost2\ -\ Fort-Dunree-Leophin-Dunree-Buncrana-Donegal.jpg);
+    background-size: cover;
+    background-position: -250px;
+}
+.pub-comentary2{
+    width: 30%;
+    float: right;
+    height: 300px;
+    background-image: url(/assets/pub\ -\ temple-bar.jpg);
+    background-size: cover;
+}
+.pub-1{
+    background-image: url(/assets/pub1\ -\ thechurch.jpg);
+    background-size: cover;
+}
+.pub-2{
+    background-image: url(/assets/pub2\ -\ teh\ swan\ bar.jpg);
+    background-size: cover;
+}
+.pub-3{
+    background-image: url(/assets/pub-3\ toners.jpg.crdownload);
+    background-size: cover;
+}
+.pub-4{
+    background-image: url(/assets/pub4\ -\ thelonghall.jpeg);
+    background-size: cover;
+}
+.museum-comentary2{
+    width: 30%;
+    float: right;
+    height: 300px;
+    background-image: url(/assets/museums-title.jpg);
+    background-size: cover;
+}
+.museum-1{
+    background-image: url(/assets/museum1.jpg);
+    background-size: cover;
+}
+.museum-2{
+    background-image: url(/assets/museum2.jpg);
+    background-size: cover;
+}
+.museum-3{
+    background-image: url(/assets/museum3.jpg);
+    background-size: cover;
+}
+.museum-4{
+    background-image: url(/assets/museum4.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.castles-wrap{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+}
+.castles{
+    width: 20%;
+    height: 90%;
+    margin: 50px 10px ;
+    text-align: center;
+}
+.castles h1{
+    background-color: #161515cb;
+    height: 17%;
+    padding: 5%;
+    color: aliceblue;
+    transition: 0.3s;
+}
+.castles:hover h1{
+    background-color: rgb(255, 166, 0);
+    color: #161515;
+}
+.castles-1{
+    background-image: url(/assets/castle1\ -\ blarmeycastle.jpeg);
+    background-size: cover;
+}
+
+.castles-2{
+    background-image: url(/assets/castle2\ -\ drimnaghcastle.jpg);
+    background-size: cover;
+}
+.castles-3{
+    background-image: url(/assets/castle3\ -\ malahidecastle.jpg);
+    background-size: cover;
+}
+.castles-4{
+    background-image: url(/assets/castle4\ -\ swordcastle.jpg);
+    background-size: cover;
+}
+
+/*end castles page*/
+
+/*Page parks*/
+
+/*end page parks*/
+
 /*Footer*/
 .footer{
-    margin-top: 150pxpx;
+    margin-top: 150px;
     background-color: var(--bgfooter);
     height: 200px;
     color: aliceblue;
@@ -379,15 +647,67 @@ hr{
     .downcontant{
         height: fit-content;
     }
-
     /*end castles*/
+    .castles-wrap{
+        margin-top: 450px;
+    }
+    /*castles page*/
 
+    .castles-image{
+        background-position: -350px;
+    }
+    .castles-title{
+        font-size: 3rem;
+        height: 200px;
+    }
+    .castles-comentary{
+        height: fit-content;
+    }
+    /*end castles page*/
+
+    .comentary1{
+        width: 100%;
+    }
+    .comentary2{
+        width: 100%;
+    }
+    .museum-comentary2, .park-comentary2, .coast-comentary2, .castles-comentary2, .pub-comentary2{
+        width: 100%;
+        margin-top: 100px;
+    }
+    
+    .castles{
+        width: 100%;
+        height: 450px;
+        margin: 10px;
+    }
+    .coast-title{
+        height: fit-content;
+    }
+    .pub-title{
+        height: fit-content;
+    }
+
+    .parks-title{
+        width: 100%;
+        height: fit-content;
+    }
+    .museums-title{
+        height: fit-content;
+    }
+    
     /*Footer*/
+    .clear{
+        margin-top: 1500px;
+    }
     .footer{
         text-align: center;
+        
     }
+ 
     .footer1{
         width: 100%;
+        
     }
     .footer2{
         width: 100%;
